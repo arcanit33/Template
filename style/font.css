@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Formular-Medium;
+    src: url("../content/font/FormularMedium.ttf")
+}
+
+@font-face {
+    font-family: Formular-Bold;
+    src: url("../content/font/FormularBold.ttf")
+}
+
+@font-face {
+    font-family: Formular-Light;
+    src: url("../content/font/FormularLight.ttf")
+}
+
+@font-face {
+    font-family: Formular-Regular;
+    src: url("../content/font/FormularRegular.ttf")
+}

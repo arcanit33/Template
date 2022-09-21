@@ -1,0 +1,539 @@
+@media (min-width: 770px) and (max-width: 1400px) {
+  .match {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .other {
+    width: 100%;
+  }
+  .other__head {
+    margin-left: 20px;
+  }
+  .other__body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer__full_size {
+    width: 100%;
+  }
+  .menu__list_item {
+    margin-left: 20px;
+  }
+  .menu__list_links {
+    font-size: 15px;
+  }
+  .footer__tail_left {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+  .menu__list {
+    display: none;
+  }
+  .match {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .match__game {
+    width: 100%;
+  }
+  .match__information {
+    width: 500px;
+  }
+  .bet {
+    width: 100%;
+  }
+  .analytics {
+    width: 100%;
+  }
+  .analytics__head {
+    padding-left: 20px;
+  }
+  .analytics__body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .analytics__body-teams-name {
+    width: 100%;
+  }
+  .analytics__tail_team {
+    width: 100%;
+  }
+  .handicap {
+    width: 100%;
+  }
+  .handicap__head {
+    padding-left: 20px;
+  }
+  .handicap__body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .players {
+    width: 100%;
+  }
+  .players__head {
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .players__body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .players__body_content {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .players__body_content-teams {
+    margin-top: 20px;
+  }
+  .players__body_content-teams-text {
+    padding-right: 20px;
+  }
+  .players__body_content-informations-stats {
+    padding-right: 20px;
+  }
+  .players__tail_team {
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+  }
+  .map-container {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .about {
+    width: 100%;
+  }
+  .about__head {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .about__body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .other {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .other__head {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .other__body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer__full_size {
+    width: 100%;
+  }
+  .footer__center_text > p {
+    font-size: 20px;
+  }
+  .footer__center > input {
+    width: 400px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .menu__list {
+    display: none;
+  }
+  .menu__options_dropdown {
+    display: none;
+  }
+  .breadcrumbs__item {
+    display: none;
+  }
+  .breadcrumbs__item-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .breadcrumbs__item-active > svg {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+  }
+  .game-select {
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  .title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .title__name {
+    width: 100%;
+    font-size: 32px;
+  }
+  .match {
+    margin-right: 20px;
+    margin-left: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .match__game {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .match__game-team {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 70px;
+  }
+  .match__game-team-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .match__game-team-logo > picture > img {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  .match__game-team-name {
+    text-align: center;
+    min-height: 70px;
+  }
+  .match__game-team-country {
+    display: none;
+  }
+  .match__game-team_win-rate {
+    display: none;
+  }
+  .match__game-information-name {
+    text-align: center;
+    font-size: 12px;
+  }
+  .match__game-information-time {
+    font-size: 20px;
+  }
+  .match__game-information-date {
+    text-align: center;
+  }
+  .match__game-information-winner {
+    text-align: center;
+    font-size: 14px;
+  }
+  .match__game-information-winner .chance-win {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .match__game-information-winner .chance-win .win {
+    padding: 0 42px;
+  }
+  .match__game-information-winner .chance-win .lose {
+    padding: 0 5px;
+  }
+  .match__information {
+    width: 318px;
+    padding: 0px;
+  }
+  .match__bonus {
+    display: none;
+  }
+  .bet {
+    width: 100%;
+  }
+  .bet__head {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .bet__body-teams {
+    padding-right: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .bet__body-teams-name {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .bet__body-content-items {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .bet__body-content-items-text {
+    margin-left: 0px;
+  }
+  .bet__body-content-items-text.mobile {
+    display: none;
+  }
+  .bet__body-content-items-img {
+    margin-left: 0px;
+  }
+  .analytics {
+    width: 100%;
+  }
+  .analytics__head {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+  }
+  .analytics__body {
+    margin-right: 20px;
+    margin-left: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .analytics__body-teams-name {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .analytics__tail_team {
+    width: 100%;
+  }
+  .handicap {
+    width: 100%;
+  }
+  .handicap__head {
+    margin: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .handicap__body {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .handicap__body_top {
+    padding-top: 40px;
+    width: 100%;
+  }
+  .handicap__body_content {
+    width: 100%;
+  }
+  .handicap__body_content-result {
+    margin-left: 20px;
+  }
+  .handicap__body_content-procent {
+    margin-right: 20px;
+  }
+  .winrate {
+    width: 100%;
+  }
+  .winrate__stats_container {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .winrate__stats_container-item {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+  .winrate__stats_container-item:first-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-right: none;
+  }
+  .winrate__map_container {
+    width: 100%;
+  }
+  .winrate__map_container-item {
+    padding-left: 0px;
+  }
+  .winrate__map_container-item > h2 {
+    font-size: 20px;
+  }
+  .players {
+    width: 100%;
+  }
+  .players__head {
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .players__body {
+    padding-left: 20px;
+    padding-right: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .players__body_content {
+    width: 100%;
+  }
+  .players__body_content-teams {
+    margin-top: 20px;
+  }
+  .players__body_content-informations-name > picture > img {
+    width: 73px;
+  }
+  .players__body_content-informations-name > div {
+    margin-left: 0px;
+  }
+  .players__body_content-informations-name > div > h2 {
+    font-size: 14px;
+  }
+  .players__body_content-informations-name > div > p {
+    font-size: 14px;
+  }
+  .players__tail_team {
+    width: 100%;
+  }
+  .map {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .map-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .about {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .about__head {
+    padding-left: 20px;
+  }
+  .about__body {
+    padding-left: 20px;
+    height: auto;
+    font-size: 18px;
+  }
+  .other {
+    padding-top: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .other__head {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .footer__full_size {
+    width: 100%;
+  }
+  .footer__center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 317px;
+  }
+  .footer__center_text {
+    width: 100%;
+  }
+  .footer__center_text > p {
+    font-size: 30px;
+  }
+  .footer__center > input {
+    width: 100%;
+    font-size: 30px;
+  }
+  .footer__center > button {
+    height: 60px;
+    width: 100%;
+  }
+  .footer__tail {
+    height: auto;
+  }
+  .footer__tail_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__tail_top-left {
+    width: 100%;
+    padding-top: 18px;
+  }
+  .footer__tail_top-right {
+    padding-top: 40px;
+    width: 100%;
+  }
+  .footer__tail_bot {
+    padding-top: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer__tail_bot-left {
+    width: 100%;
+    font-size: 18px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer__tail_bot-left > p {
+    padding-top: 20px;
+  }
+  .footer__tail_bot-left > div {
+    padding-top: 20px;
+  }
+  .footer__tail_bot-right {
+    width: 100%;
+  }
+  .footer__tail_bot-right > div > p {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
